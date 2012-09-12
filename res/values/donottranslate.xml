@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2009, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">    
+    <!-- Symbols that are commonly considered word or sentence separators in this language -->
+    <!-- word separators do not contain the "," because it is handeled specially due to number processing -->
+    <string name="word_separators">\u0020\t\n:\n\\(\\)\\[\\]\\*&amp;@{}/\\\\&lt;&gt;_\\+=\\|\"&quot;\\-</string>
+    <!-- sentence separators do not contain the "." because it is handeled specially due to number processing -->
+    <string name="sentence_separators">;!\\?</string>
+    <string name="no_space_before_separators">\u0020,:\n@_.;!?</string>
+    <string name="space_afterwards_separators">,:.;!?</string>
+    <string name="shift_space_separators">,:.;!?-</string>
+    
+    <!-- Symbols to be shown when completion is selected or no more completions are available -->
+    <string-array name="freq_used_symbols">
+        <item>"-"</item>
+        <item>":"</item>
+        <item>"?"</item>
+        <item>"!"</item>
+        <item>";"</item>
+    </string-array>
+    
+    
+    <string name="numbers">0123456789</string>
+    
+    <!-- Symbols that are suggested between words -->
+    <string name="suggested_punctuations">!?,\u0022\u0027:()-/@_</string>
+
+    <!-- Option values to show/hide the settings key in onscreen keyboard -->
+    <!-- Automatically decide to show or hide the settings key -->
+    <string name="settings_key_mode_auto" translatable="false">0</string>
+    <!-- Always show the settings key -->
+    <string name="settings_key_mode_always_show" translatable="false">1</string>
+    <!-- Always hide the settings key -->
+    <string name="settings_key_mode_always_hide" translatable="false">2</string>
+</resources>
