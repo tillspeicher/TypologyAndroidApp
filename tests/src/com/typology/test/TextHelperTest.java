@@ -9,7 +9,6 @@ package com.typology.test;
 import static org.junit.Assert.assertArrayEquals;
 import android.content.Context;
 import android.test.AndroidTestCase;
-import android.util.Log;
 
 import com.typology.TextHelper;
 import com.typology.softkeyboard.R;
@@ -117,7 +116,6 @@ public class TextHelperTest extends AndroidTestCase {
 		input = ",2 just 1.0, large number: 1,000,000.0";
 		expectedOutput = new String[]{"","2","just","1.0","","large","number","","1,000,000.0"};
 		output = TextHelper.getCurrentWords(input);
-		logOutput(output);
 		assertArrayEquals(expectedOutput, output);
 	}
 	
