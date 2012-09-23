@@ -171,7 +171,7 @@ public class TextHelper {
 	}
 	
 	public static String getSeparators() {
-		return wordSeparators + sentenceSeparators;
+		return wordSeparators + sentenceSeparators + ".,";
 	}
 	
     public static boolean isSeparator(int code) {

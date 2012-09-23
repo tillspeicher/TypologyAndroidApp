@@ -241,6 +241,13 @@ public class TextHelperTest extends AndroidTestCase {
 			assertTrue(output);
 		}
 		
+		input = '.';
+		output = TextHelper.isSeparator(input);
+		assertTrue(output);
+		input = ',';
+		output = TextHelper.isSeparator(input);
+		assertTrue(output);
+		
 		input = 'a';
 		output = TextHelper.isSeparator(input);
 		assertFalse(output);

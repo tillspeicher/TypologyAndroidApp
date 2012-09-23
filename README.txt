@@ -1,3 +1,5 @@
+Is this visible only in the development branch???
+
 Typology http://www.typology.de is data structure for large amounts of text in order to suggest users next words they are about to type.
 
 Typology was first developed by Paul Georg Wagner, Till Speicher and Rene Pickhardt (http://www.rene-pickhardt.de/tag/typology)
